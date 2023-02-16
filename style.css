@@ -1,0 +1,38 @@
+*
+{
+	font-family: Calibri;
+}
+body
+{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("m2.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+ul
+{
+	list-style-type:none;
+		position:relative;
+		left:78%;
+		top:5%;
+}
+ul li
+{
+	height:100px;
+	width:150px;
+	border:2px solid white;
+	display:inline;
+	padding:10px 20px;
+	margin-left:10px;
+	color:white;
+	transition: 1.5 ease;
+}
+a{
+	text-decoration: none;
+}
+li:hover
+{
+	color:black;
+	background:white;
+}
